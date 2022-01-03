@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.nav {
+    height: 120px;
+    width: 70%;
+    background-color: black;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.left {
+    height: 100px;
+    width: 60%;
+    font-size: 25px;
+    padding: 25px 20px;
+}
+
+.right {
+    height: 100px;
+    width: 29%;
+    display: flex;
+    font-size: 25px;
+    padding-top: 2%;
+    justify-content: space-around;
+}
+
+select {
+    height: 100px;
+    width: 100%;
+    border: 0px;
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-left: 12px;
+}
+
+#login,
+#signup,
+#menu {
+    cursor: pointer;
+}
